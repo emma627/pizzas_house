@@ -10,7 +10,7 @@
 
 	// fetch the resulting rows as an array
 	$pizzas = mysqli_fetch_all($result, MYSQLI_ASSOC);
-	print_r($pizzas);
+	
 
 	// free the $result from memory (good practise)
 	mysqli_free_result($result);
