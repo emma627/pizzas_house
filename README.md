@@ -1,7 +1,6 @@
 # pizzas_house
 
-my Pizza House PHP & SQL practical project inspired by shaun tutorial
-
+my Pizza House PHP & SQL practical project 
 In this project using sqli to begin with,
 
 we can:
@@ -10,7 +9,7 @@ we can:
 
 2.add item to the database
 
-3.show item from the database
+3.show item details from the database
 
 4.delete an item from the database
 
