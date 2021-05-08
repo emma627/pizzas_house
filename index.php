@@ -3,7 +3,7 @@
 	include('config/db_connect.php');
 
 	// write query for all pizzas
-	$sql = 'SELECT title, ingredients, id FROM pizzas ORDER BY created_at';
+	$sql = "SELECT title, ingredients, id FROM pizzas ORDER BY created_at";
 
 	// get the result set (set of rows)
 	$result = mysqli_query($conn, $sql);
@@ -46,7 +46,7 @@
 							</ul>
 						</div>
 						<div class="card-action right-align">
-							<a class="brand-text" href="#">more info</a>
+							<a class="brand-text" href="details.php?id=<?php  echo $pizza['id']?>">more info</a>
 						</div>
 					</div>
 				</div>
