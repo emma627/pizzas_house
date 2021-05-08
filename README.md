@@ -1,6 +1,7 @@
 # pizzas_house
 
 my Pizza House PHP & SQL practical project 
+
 In this project using sqli to begin with,
 
 we can:
